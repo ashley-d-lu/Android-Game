@@ -1,6 +1,6 @@
 # Android-Game
 
-I collaborated with 3 of my peers to create an Android app.
+I collaborated with three of my peers to create an Android app.
 
 This app allows users to register, login, and logout. 
 When logged in, the user can play through 4 mini-games, 
