@@ -1,3 +1,0 @@
-##########
-Oct 27 2019 0248 by Luqiong Xie
-Added Tapping Game .java files and xml files. 
