@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.view.user.UserMenuActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="49dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:text="Level 4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/playButton4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/playButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToLevel3"
+        android:text="Play"
+        app:layout_constraintBottom_toTopOf="@+id/playButton4"
+        app:layout_constraintEnd_toEndOf="@+id/playButton4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/playButton4"
+        app:layout_constraintTop_toBottomOf="@+id/playButton2" />
+
+    <TextView
+        android:id="@+id/greetingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Hello"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="85dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="logout"
+        android:text="Logout"
+        app:layout_constraintBaseline_toBaselineOf="@+id/userNameText"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Level 1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/playButton1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Level 2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/playButton2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="49dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:text="Level 3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/playButton3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/viewStatsButton"
+        android:layout_width="152dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:onClick="goToStatistics"
+        android:text="View Your Statistics"
+        app:layout_constraintBottom_toTopOf="@+id/scoreboardButton"
+        app:layout_constraintEnd_toEndOf="@+id/scoreboardButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/scoreboardButton"
+        app:layout_constraintTop_toBottomOf="@+id/playButton4" />
+
+    <Button
+        android:id="@+id/customizeButton"
+        android:layout_width="104dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="goToCustomization"
+        android:text="Customize"
+        app:layout_constraintBaseline_toBaselineOf="@+id/userNameText"
+        app:layout_constraintEnd_toStartOf="@+id/logoutButton" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="152dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="60dp"
+        android:onClick="restartGame"
+        android:text="Restart Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreboardButton" />
+
+    <Button
+        android:id="@+id/playButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:onClick="goToLevel1"
+        android:text="Play"
+        app:layout_constraintBottom_toTopOf="@+id/playButton2"
+        app:layout_constraintEnd_toEndOf="@+id/playButton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/playButton2"
+        app:layout_constraintTop_toBottomOf="@+id/customizeButton" />
+
+    <Button
+        android:id="@+id/playButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToLevel2"
+        android:text="Play"
+        app:layout_constraintBottom_toTopOf="@+id/playButton3"
+        app:layout_constraintEnd_toEndOf="@+id/playButton3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/playButton3"
+        app:layout_constraintTop_toBottomOf="@+id/playButton1" />
+
+    <EditText
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:inputType="none"
+        android:text="userName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greetingText" />
+
+    <Button
+        android:id="@+id/scoreboardButton"
+        android:layout_width="154dp"
+        android:layout_height="43dp"
+        android:onClick="goToScoreboard"
+        android:text="Scoreboard"
+        app:layout_constraintBottom_toTopOf="@+id/restartButton"
+        app:layout_constraintEnd_toEndOf="@+id/restartButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/restartButton"
+        app:layout_constraintTop_toBottomOf="@+id/viewStatsButton" />
+
+    <Button
+        android:id="@+id/playButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:onClick="goToLevel4"
+        android:text="Play"
+        app:layout_constraintBottom_toTopOf="@+id/viewStatsButton"
+        app:layout_constraintEnd_toEndOf="@+id/viewStatsButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/viewStatsButton"
+        app:layout_constraintTop_toBottomOf="@+id/playButton3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="reg_username_taken">This username is already taken</string>
+    <string name="reg_passwords_do_not_match">Passwords do not match</string>
+    <string name="login_incorrect_username_or_pass">Incorrect username or password</string>
+    <string name="stats_score_description">score = points + stars + taps</string>
+</resources>
