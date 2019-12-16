@@ -17,5 +17,5 @@ Presenter) approach to packaging.
 Design patterns used in this project include 
 Dependency Inversion (UserServiceIntf, DataManagerIntf), 
 Singleton (AppManager), Observer (GameStateObserver), 
-Builder (AppleGameBuilder), Factory (GameManagerFactory), 
+Builder (AppleItemsBuilder), Factory (GameManagerFactory), 
 and Strategy (ScoreCalculator). 
