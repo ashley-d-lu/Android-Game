@@ -11,7 +11,7 @@ The goal of this project was to use design principles,
 design patterns, and packaging to make the code clean 
 and extensible.
 
-This project uses Clean Architecture + MVP (Model, View,
+This project uses the Clean Architecture + MVP (Model, View,
 Presenter) approach to packaging. 
 
 Design patterns used in this project include 
