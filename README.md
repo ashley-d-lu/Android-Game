@@ -20,7 +20,7 @@ Builder, Factory, and Strategy.
 
 <br/>
 
-<h4>High level architecture diagram of the project:<h4/>
+<h3>High level architecture diagram of the project:<h3/>
 <img src="previews/high-level-architecture-diagram.png" width="800">
 
 
@@ -28,7 +28,7 @@ Builder, Factory, and Strategy.
 
 <br/>
 
-<h4>Previews of the project:<h4/>
+<h3>Previews of the project:<h3/>
 
 Login:<br/>
 <img src="previews/login.gif" width="300">
