@@ -30,26 +30,26 @@ Builder, Factory, and Strategy.
 
 <h3>Previews of the project:<h3/>
 
-Login:<br/>
+<h5>Login:<h5/>
 <img src="previews/login.gif" width="300">
 
-User Menu:<br/>
+<h5>User Menu:<h5/>
 <img src="previews/user-menu.png" width="300">
 
-Level 1: Apple Catching Game:<br/>
+<h5>Level 1: Apple Catching Game:<h5/>
 <img src="previews/apple-game.gif" width="300">
 
-Level 2: Speed Tapping Game:<br/>
+<h5>Level 2: Speed Tapping Game:<h5/>
 <img src="previews/tapping-game.gif" width="300">
 
-Level 3: Jumping Game:<br/>
+<h5>Level 3: Jumping Game:<h5/>
 <img src="previews/jumping-game.gif" width="300">
 
-Level 4: Brick Breaker Game:<br/>
+<h5>Level 4: Brick Breaker Game:<h5/>
 <img src="previews/brick-game.gif" width="300">
 
-User Statistics:<br/>
+<h5>User Statistics:<h5/>
 <img src="previews/statistics.png" width="300">
 
-Scoreboard:<br/>
+<h5>Scoreboard:<h5/>
 <img src="previews/scoreboard.gif" width="300">
