@@ -17,3 +17,39 @@ Presenter) approach to packaging.
 Design patterns used in this project include 
 Dependency Inversion, Singleton, Observer, 
 Builder, Factory, and Strategy. 
+
+<br/>
+
+<h4>High level architecture diagram of the project:<h4/>
+<img src="previews/high-level-architecture-diagram.png" width="800">
+
+
+<br/>
+
+<br/>
+
+<h4>Previews of the project:<h4/>
+
+Login:<br/>
+<img src="previews/login.gif" width="300">
+
+User Menu:<br/>
+<img src="previews/user-menu.png" width="300">
+
+Level 1: Apple Catching Game:<br/>
+<img src="previews/apple-game.gif" width="300">
+
+Level 2: Speed Tapping Game:<br/>
+<img src="previews/tapping-game.gif" width="300">
+
+Level 3: Jumping Game:<br/>
+<img src="previews/jumping-game.gif" width="300">
+
+Level 4: Brick Breaker Game:<br/>
+<img src="previews/brick-game.gif" width="300">
+
+User Statistics:<br/>
+<img src="previews/statistics.png" width="300">
+
+Scoreboard:<br/>
+<img src="previews/scoreboard.gif" width="300">
