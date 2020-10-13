@@ -1,6 +1,6 @@
 # Android-Game
 
-<h3>About the Project<h3/>
+## About the Project
   
 This android app is a collaboration project with three of my peers.
 
@@ -9,7 +9,7 @@ When logged in, the user can play through 4 mini-games,
 view their current and past game statistics, 
 and compare their statistics with other users. 
 
-<h3>Goal of the Project<h3/>
+## Goal of the Project
 
 The goal of this project is to use design principles, 
 design patterns, and packaging to make code that is clean and extensible.
@@ -21,9 +21,7 @@ Design patterns used in this project include
 Dependency Inversion, Singleton, Observer, 
 Builder, Factory, and Strategy. 
 
-<br/>
-
-<h3>High Level Architecture Diagram of the Project:<h3/>
+## High Level Architecture of the Project:
 <img src="previews/high-level-architecture-diagram.png" width="800">
 
 
@@ -31,28 +29,28 @@ Builder, Factory, and Strategy.
 
 <br/>
 
-<h3>Previews of the Project:<h3/>
+## Previews of the Project:
 
-<h5>Login:<h5/>
+#### Login:
 <img src="previews/login.gif" width="300">
 
-<h5>User Menu:<h5/>
+#### User Menu:
 <img src="previews/user-menu.png" width="300">
 
-<h5>Level 1: Apple Catching Game:<h5/>
+#### Level 1: Apple Catching Game:
 <img src="previews/apple-game.gif" width="300">
 
-<h5>Level 2: Speed Tapping Game:<h5/>
+#### Level 2: Speed Tapping Game:
 <img src="previews/tapping-game.gif" width="300">
 
-<h5>Level 3: Jumping Game:<h5/>
+#### Level 3: Jumping Game:
 <img src="previews/jumping-game.gif" width="300">
 
-<h5>Level 4: Brick Breaker Game:<h5/>
+#### Level 4: Brick Breaker Game:
 <img src="previews/brick-game.gif" width="300">
 
-<h5>User Statistics:<h5/>
+#### User Statistics:
 <img src="previews/statistics.png" width="300">
 
-<h5>Scoreboard:<h5/>
+#### Scoreboard:
 <img src="previews/scoreboard.gif" width="300">
