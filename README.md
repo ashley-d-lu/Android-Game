@@ -24,11 +24,6 @@ Builder, Factory, and Strategy.
 ## High Level Architecture of the Project:
 <img src="previews/high-level-architecture-diagram.png" width="800">
 
-
-<br/>
-
-<br/>
-
 ## Previews of the Project:
 
 #### Login:
